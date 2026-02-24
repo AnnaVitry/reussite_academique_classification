@@ -1,0 +1,23 @@
+artifact_path: "/home/anna/Documents/Alternance F\xE9vrier 2026/reussite_academique_classification/mlruns/2/models/m-40b137af0ae748b996c3cd9181a16dc8/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-40b137af0ae748b996c3cd9181a16dc8
+model_size_bytes: 16529020
+model_uuid: m-40b137af0ae748b996c3cd9181a16dc8
+prompts: null
+run_id: 5e0074d8286b46fa8a56a54e79399a12
+utc_time_created: '2026-02-24 12:40:12.684260'
